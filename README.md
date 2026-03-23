@@ -95,4 +95,4 @@ This project demonstrates end-to-end development, validation, automation testing
 
 👩‍💻 Developed By
 
-Shrishti Duddalwar
+Tanay Kothari
