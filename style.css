@@ -1,0 +1,68 @@
+/* Base layout */
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    background: url("background.webp") center/cover no-repeat;
+}
+
+/* Glass card */
+.container {
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    color: #000;
+
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Text */
+h2 { text-align: center; }
+label { font-weight: bold; }
+
+/* Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: .3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2193b0;
+    box-shadow: 0 0 5px #2193b0;
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Layout helpers */
+.gender { margin-top: 5px; }
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2193b0;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover { background: #17617a; }
